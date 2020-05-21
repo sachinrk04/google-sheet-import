@@ -3,20 +3,40 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  font-size: calc(5px + 1vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.usersDetails {
+  border: 1px solid black;
+}
+
+.usersDetails > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+}
+
+.usersDetails > div:last-child {
+  border-bottom: none;
+}
+
+.usersDetails > div > p {
+  margin-bottom: 0;
 }
